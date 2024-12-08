@@ -41,7 +41,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 # Use to read XML
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.15.7'
 
 #Ruby binding for zmq
 gem 'ffi-rzmq'
